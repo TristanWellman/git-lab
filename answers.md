@@ -100,3 +100,36 @@ On branch main
 Your branch is up to date with 'origin/main'.
 
 nothing to commit, working tree clean
+
+# 10.)
+
+Nothing was in README because it's not synced.
+
+# 11.)
+
+git-lab on  main [!] took 31s
+❯ git push -u origin main
+To https://github.com/TristanWellman/git-lab.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/TristanWellman/git-lab.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+# 12.)
+
+git-lab on  main [!] took 14s
+❯ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 960 bytes | 240.00 KiB/s, done.
+From https://github.com/TristanWellman/git-lab
+   7b52025..9332b90  main       -> origin/main
+Updating 7b52025..9332b90
+Fast-forward
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
