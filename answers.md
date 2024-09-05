@@ -133,3 +133,9 @@ Updating 7b52025..9332b90
 Fast-forward
  README.md | 1 +
  1 file changed, 1 insertion(+)
+
+ # 13.)
+
+git-lab-2 on  main
+❯ ls -a
+.		..		.git		.gitignore	README.md
