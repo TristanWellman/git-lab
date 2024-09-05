@@ -92,5 +92,11 @@ Date:   Thu Sep 5 16:03:44 2024 -0400
     Initial commit
 
 
+# 9.)
 
+git-lab on  main took 11s
+❯ git status
+On branch main
+Your branch is up to date with 'origin/main'.
 
+nothing to commit, working tree clean
